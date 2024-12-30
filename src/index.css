@@ -1,0 +1,45 @@
+.header{
+    display: flex; 
+    justify-content: flex-end;
+    gap: 40px;
+    padding-right:50px ;
+    background-color:rgb(250, 232, 210);
+    border-bottom: 2px solid black;
+}
+
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    background-color:bisque;
+    padding-right:20px ;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.bi{
+        background-image: url('./assets/photo.jpg'); 
+        background-size: cover;
+        background-position: fixed fixed; 
+        height: 100vh; 
+        width: 100%;
+        position: fixed;
+}
+
+.logo{
+   position: relative;
+   right:1300px;
+   cursor: pointer;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color:#00FFFF;
+}
